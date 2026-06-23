@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swim with Coach James — Private At-Home Swim Lessons | Staten Island</title>
+  <meta name="description" content="Private, at-home swim lessons with Coach James Abbazia. Staten Island based, available to travel. Build confidence, learn skills, save lives. Now booking Summer 2026." />
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:title" content="Swim with Coach James — Private At-Home Swim Lessons" />
+  <meta property="og:description" content="Safe, professional, results-driven swim coaching at your own pool. Staten Island & beyond. Now booking Summer 2026." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/open-water.jpg" />
+
+  <!-- Favicon: violet wave on black -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23000'/%3E%3Cpath d='M4 13c2.2 0 2.2 2 4.4 2s2.2-2 4.4-2 2.2 2 4.4 2 2.2-2 4.4-2 2.2 2 4.4 2' stroke='%234a53ff' stroke-width='2.2' fill='none' stroke-linecap='round'/%3E%3Cpath d='M4 19c2.2 0 2.2 2 4.4 2s2.2-2 4.4-2 2.2 2 4.4 2 2.2-2 4.4-2 2.2 2 4.4 2' stroke='%23fff' stroke-width='2.2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===================== ANNOUNCEMENT BAR ===================== -->
+  <div class="announce" id="top">
+    <div class="announce__inner wrap">
+      <span>Now booking <strong>Summer 2026</strong> — Staten Island &amp; surrounding areas</span>
+      <a href="#book" class="announce__link">Reserve your spot &rarr;</a>
+    </div>
+  </div>
+
+  <!-- ===================== NAV ===================== -->
+  <header class="nav" id="nav">
+    <div class="nav__inner wrap">
+      <a href="#top" class="brand" aria-label="Swim with Coach James — home">
+        <svg class="brand__mark" viewBox="0 0 32 26" aria-hidden="true">
+          <path d="M2 7c2.4 0 2.4 2.2 4.8 2.2S9.2 7 11.6 7 14 9.2 16.4 9.2 18.8 7 21.2 7s2.4 2.2 4.8 2.2S28.4 7 30 7" />
+          <path d="M2 14c2.4 0 2.4 2.2 4.8 2.2S9.2 14 11.6 14 14 16.2 16.4 16.2 18.8 14 21.2 14s2.4 2.2 4.8 2.2S28.4 14 30 14" />
+          <path d="M2 21c2.4 0 2.4 2.2 4.8 2.2S9.2 21 11.6 21 14 23.2 16.4 23.2 18.8 21 21.2 21s2.4 2.2 4.8 2.2S28.4 21 30 21" />
+        </svg>
+        <span class="brand__text">Swim with <strong>Coach James</strong></span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#method">The Method</a>
+        <a href="#sessions">Sessions</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#book" class="btn btn--violet nav__cta">Book a Session</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile overlay menu -->
+  <div class="mobile-menu" id="mobileMenu" hidden>
+    <nav aria-label="Mobile">
+      <a href="#about">About</a>
+      <a href="#method">The Method</a>
+      <a href="#sessions">Sessions</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <a href="#book" class="btn btn--violet">Book a Session</a>
+    </nav>
+  </div>
+
+  <!-- ===================== HERO (BLACK) ===================== -->
+  <section class="hero">
+    <div class="hero__inner wrap">
+      <p class="eyebrow eyebrow--light">Private at-home swim lessons · Summer 2026</p>
+      <h1 class="display">Build confidence in the water.</h1>
+      <p class="hero__sub">
+        One-on-one swim lessons at your own pool with Coach James Abbazia — a swim instructor
+        and K–12 educator. Staten Island based, available to travel.
+        Safe, professional, and built to get real results.
+      </p>
+      <div class="hero__cta">
+        <a href="#book" class="btn btn--white">Book a Session</a>
+        <a href="#sessions" class="btn btn--ghost">See Sessions &amp; Pricing</a>
+      </div>
+
+      <div class="hero__stats">
+        <div class="stat">
+          <span class="stat__num">1:1</span>
+          <span class="stat__label">Private Lessons</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">K–12</span>
+          <span class="stat__label">Certified Educator</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">CPR</span>
+          <span class="stat__label">AED &amp; First Aid</span>
+        </div>
+      </div>
+    </div>
+    <p class="hero__tagline">Build confidence. &nbsp;Learn skills. &nbsp;<em>Save lives.</em></p>
+  </section>
+
+  <!-- ===================== ABOUT (WHITE) ===================== -->
+  <section class="section section--light" id="about">
+    <div class="wrap about">
+      <div class="about__media reveal">
+        <img src="images/coach-james.jpg" alt="Coach James Abbazia, swim instructor, poolside" loading="lazy" />
+        <div class="about__badge">
+          <span class="about__badge-num">100%</span>
+          <span class="about__badge-label">At your pool</span>
+        </div>
+      </div>
+      <div class="about__body reveal">
+        <p class="eyebrow">Meet your coach</p>
+        <h2 class="heading-lg">James Abbazia</h2>
+        <p class="lead">
+          James is a high school physical education teacher and sports coach based on
+          Staten Island, with over 5 years of lifeguarding experience and 5 years teaching
+          swimmers of all ages. He brings classroom-tested teaching skills to the pool —
+          meeting every swimmer where they are and building real, lasting water competence.
+        </p>
+        <p class="muted">
+          Every lesson is private, patient, and built around one goal: confident, capable,
+          safe swimmers. Whether your child is nervous to put their face in the water or an
+          adult who never learned, James makes the water feel like home.
+        </p>
+
+        <ul class="creds">
+          <li><svg viewBox="0 0 24 24" class="creds__ic" aria-hidden="true"><path d="M12 3 2 8l10 5 8-4v6"/><path d="M6 11v5c0 1 3 3 6 3s6-2 6-3v-5"/></svg>High School Physical Education Teacher</li>
+          <li><svg viewBox="0 0 24 24" class="creds__ic" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 13V9"/><path d="M9 2h6"/><path d="M18.8 6.2 20.5 4.5"/></svg>Sports Coach</li>
+          <li><svg viewBox="0 0 24 24" class="creds__ic" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.5"/><path d="M5.6 5.6 8.9 8.9M18.4 5.6 15.1 8.9M5.6 18.4l3.3-3.3M18.4 18.4l-3.3-3.3"/></svg>5+ years of lifeguarding experience</li>
+          <li><svg viewBox="0 0 24 24" class="creds__ic" aria-hidden="true"><path d="M3 12c2 0 2 2 4 2s2-2 4-2 2 2 4 2 2-2 4-2"/><path d="M3 17c2 0 2 2 4 2s2-2 4-2 2 2 4 2 2-2 4-2"/></svg>5 years of swim instructing experience</li>
+          <li><svg viewBox="0 0 24 24" class="creds__ic" aria-hidden="true"><path d="M12 3 2 8l10 5 8-4v6"/><path d="M6 11v5c0 1 3 3 6 3s6-2 6-3v-5"/></svg>M.S. Sports Administration</li>
+          <li><svg viewBox="0 0 24 24" class="creds__ic" aria-hidden="true"><path d="M4 5h7v15H4z"/><path d="M13 5h7v15h-7z"/></svg>B.S. Physical Education</li>
+          <li><svg viewBox="0 0 24 24" class="creds__ic" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9"/><path d="M12 8v8M8 12h8"/></svg>CPR, AED &amp; First Aid Certified</li>
+        </ul>
+
+        <a href="#book" class="btn btn--dark">Book with James</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== METHOD (BLACK/CARBON) ===================== -->
+  <section class="section section--carbon" id="method">
+    <div class="wrap">
+      <div class="section__head">
+        <p class="eyebrow eyebrow--light">The method</p>
+        <h2 class="heading heading--light">How we build great swimmers</h2>
+      </div>
+      <div class="steps">
+        <article class="step reveal">
+          <span class="step__num">01</span>
+          <h3 class="step__title">Assess &amp; connect</h3>
+          <p class="step__text">
+            Every swimmer starts with a relaxed, in-water assessment — comfort, breathing,
+            and current skill — so each session is built around them, not a generic class.
+          </p>
+        </article>
+        <article class="step reveal">
+          <span class="step__num">02</span>
+          <h3 class="step__title">Build water confidence</h3>
+          <p class="step__text">
+            Through patient, structured progressions, nervous beginners learn to float,
+            breathe, and move through the water without fear.
+          </p>
+        </article>
+        <article class="step reveal">
+          <span class="step__num">03</span>
+          <h3 class="step__title">Master strokes &amp; safety</h3>
+          <p class="step__text">
+            From freestyle and backstroke to essential water-safety and survival skills,
+            swimmers leave every lesson measurably stronger — and safer.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GALLERY / STORY CARDS (WHITE) ===================== -->
+  <section class="section section--light" id="gallery">
+    <div class="wrap">
+      <div class="section__head">
+        <p class="eyebrow">Why it works</p>
+        <h2 class="heading">Lessons that meet you where you are</h2>
+      </div>
+      <div class="cards">
+        <a href="#book" class="story" style="--img:url('images/backyard-pool.jpg')">
+          <div class="story__overlay">
+            <h3 class="story__title">At your own pool</h3>
+            <div class="story__stat"><span class="stat__num">0 mi</span><span class="stat__label">You travel</span></div>
+          </div>
+          <span class="story__btn" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+        </a>
+        <a href="#book" class="story" style="--img:url('images/pool-dive.jpg')">
+          <div class="story__overlay">
+            <h3 class="story__title">Confidence first</h3>
+            <div class="story__stat"><span class="stat__num">All ages</span><span class="stat__label">Kids &amp; adults</span></div>
+          </div>
+          <span class="story__btn" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+        </a>
+        <a href="#book" class="story" style="--img:url('images/swimmer-butterfly.jpg')">
+          <div class="story__overlay">
+            <h3 class="story__title">Technique that lasts</h3>
+            <div class="story__stat"><span class="stat__num">4</span><span class="stat__label">Strokes taught</span></div>
+          </div>
+          <span class="story__btn" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SESSIONS & PRICING (BLACK, white cards) ===================== -->
+  <section class="section section--dark" id="sessions">
+    <div class="wrap">
+      <div class="section__head">
+        <p class="eyebrow eyebrow--light">Summer 2026 sessions</p>
+        <h2 class="heading heading--light">Choose your sessions</h2>
+      </div>
+
+      <!-- TODO COACH JAMES: Update the prices below to your real rates.
+           Each price is the text inside <span class="price__num"> ... </span>. -->
+      <div class="pricing">
+        <article class="price reveal">
+          <h3 class="price__tier">Single Lesson</h3>
+          <p class="price__amount"><span class="price__num">$90</span><span class="price__per">/ lesson</span></p>
+          <p class="price__note">Perfect for a first session or a tune-up.</p>
+          <ul class="price__list">
+            <li>30–45 min private 1:1 lesson</li>
+            <li>At your pool, on your schedule</li>
+            <li>Skill assessment included</li>
+            <li>Personalized next-step plan</li>
+          </ul>
+          <a href="#book" class="btn btn--dark price__btn" data-prefill="Single Lesson">Book a single lesson</a>
+        </article>
+
+        <article class="price price--featured reveal">
+          <span class="price__badge">Most popular</span>
+          <h3 class="price__tier">Summer Package</h3>
+          <p class="price__amount"><span class="price__num">$640</span><span class="price__per">/ 8 lessons</span></p>
+          <p class="price__note">The fastest path to a confident swimmer.</p>
+          <ul class="price__list">
+            <li>Eight private 1:1 lessons</li>
+            <li>Consistent weekly time slot</li>
+            <li>Progress tracking each session</li>
+            <li>Priority summer scheduling</li>
+          </ul>
+          <a href="#book" class="btn btn--violet price__btn" data-prefill="Summer Package (8 lessons)">Book the package</a>
+        </article>
+
+        <article class="price reveal">
+          <h3 class="price__tier">Sibling / Semi-Private</h3>
+          <p class="price__amount"><span class="price__num">$130</span><span class="price__per">/ lesson</span></p>
+          <p class="price__note">Two swimmers, one lesson — great for families.</p>
+          <ul class="price__list">
+            <li>Up to 2 swimmers per lesson</li>
+            <li>Shared at-home session</li>
+            <li>Same certified coaching</li>
+            <li>Sibling &amp; friend friendly</li>
+          </ul>
+          <a href="#book" class="btn btn--dark price__btn" data-prefill="Sibling / Semi-Private">Book semi-private</a>
+        </article>
+      </div>
+
+      <p class="pricing__fineprint">
+        Final pricing is confirmed by email based on location, travel distance, and pool access.
+        Multi-week and family discounts available — just ask.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== BOOKING (WHITE / LAB MIST) ===================== -->
+  <section class="section section--mist" id="book">
+    <div class="wrap booking">
+      <div class="booking__intro reveal">
+        <p class="eyebrow">Book a session</p>
+        <h2 class="heading-lg">Reserve your spot for Summer 2026</h2>
+        <p class="lead">
+          Tell me about your swimmer and your ideal schedule. I'll personally reply by email
+          within 24 hours to confirm details, availability, and pricing.
+        </p>
+
+        <ul class="booking__reassure">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>Private, 1-on-1 instruction</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>Staten Island based · available to travel</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>CPR, AED &amp; First Aid certified coach</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>All ages &amp; abilities welcome</li>
+        </ul>
+
+        <div class="booking__contactcard" style="--img:url('images/swim-lanes.jpg')">
+          <div class="booking__contactcard-inner">
+            <p>Prefer to reach out directly?</p>
+            <a href="mailto:Jabbazia99@gmail.com">Jabbazia99@gmail.com</a>
+            <a href="https://instagram.com/swimwithcoachjames" target="_blank" rel="noopener">DM @swimwithcoachjames</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="booking__formwrap reveal">
+        <form class="bookform" id="bookform" novalidate>
+          <div class="field">
+            <label for="f-name">Your name <span>*</span></label>
+            <input type="text" id="f-name" name="name" autocomplete="name" required />
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="f-email">Email <span>*</span></label>
+              <input type="email" id="f-email" name="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="f-phone">Phone</label>
+              <input type="tel" id="f-phone" name="phone" autocomplete="tel" />
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="f-swimmer">Swimmer name(s) <span>*</span></label>
+              <input type="text" id="f-swimmer" name="swimmer" required />
+            </div>
+            <div class="field">
+              <label for="f-age">Swimmer age(s) <span>*</span></label>
+              <input type="text" id="f-age" name="age" placeholder="e.g. 6 and 8" required />
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="f-level">Current swim level</label>
+              <select id="f-level" name="level">
+                <option value="Total beginner">Total beginner</option>
+                <option value="Some experience">Some experience</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+                <option value="Not sure">Not sure</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="f-type">Session type</label>
+              <select id="f-type" name="session_type">
+                <option value="Not sure yet">Not sure yet</option>
+                <option value="Single Lesson">Single Lesson</option>
+                <option value="Summer Package (8 lessons)">Summer Package (8 lessons)</option>
+                <option value="Sibling / Semi-Private">Sibling / Semi-Private</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="f-location">Where will lessons take place? <span>*</span></label>
+            <input type="text" id="f-location" name="location" placeholder="Your pool address / town, or “need help finding a pool”" required />
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="f-date">Preferred start date</label>
+              <input type="date" id="f-date" name="start_date" />
+            </div>
+            <div class="field">
+              <label for="f-days">Preferred days &amp; times</label>
+              <input type="text" id="f-days" name="availability" placeholder="e.g. weekday mornings" />
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="f-goals">Goals or anything else I should know</label>
+            <textarea id="f-goals" name="goals" rows="3" placeholder="e.g. nervous in deep water, wants to learn freestyle, prepping for a trip…"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--violet bookform__submit" id="bookSubmit">Send booking request</button>
+          <p class="bookform__privacy">Your details are only used to respond to your request — never shared.</p>
+
+          <!-- Status messages -->
+          <p class="bookform__error" id="bookError" role="alert" hidden></p>
+        </form>
+
+        <div class="bookform__success" id="bookSuccess" hidden>
+          <span class="bookform__check" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="m5 13 4 4L19 7"/></svg>
+          </span>
+          <h3>Request sent!</h3>
+          <p>Thanks — I'll get back to you by email within 24 hours to confirm your spot. Talk soon!</p>
+          <p class="bookform__success-alt">Didn't open your email app? Email <a href="mailto:Jabbazia99@gmail.com">Jabbazia99@gmail.com</a> directly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== DARK CTA BAND (BLACK + open water) ===================== -->
+  <section class="cta-band" style="--img:url('images/open-water.jpg')">
+    <div class="wrap cta-band__inner">
+      <h2 class="heading-lg heading--light">Let's make this summer unforgettable.</h2>
+      <p class="cta-band__sub">Spots for Summer 2026 are limited — book early to lock in your preferred days.</p>
+      <a href="#book" class="btn btn--white">Book a Session</a>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER (CARBON) ===================== -->
+  <footer class="footer" id="contact">
+    <div class="wrap footer__inner">
+      <div class="footer__brand">
+        <a href="#top" class="brand brand--footer">
+          <svg class="brand__mark" viewBox="0 0 32 26" aria-hidden="true">
+            <path d="M2 7c2.4 0 2.4 2.2 4.8 2.2S9.2 7 11.6 7 14 9.2 16.4 9.2 18.8 7 21.2 7s2.4 2.2 4.8 2.2S28.4 7 30 7" />
+            <path d="M2 14c2.4 0 2.4 2.2 4.8 2.2S9.2 14 11.6 14 14 16.2 16.4 16.2 18.8 14 21.2 14s2.4 2.2 4.8 2.2S28.4 14 30 14" />
+            <path d="M2 21c2.4 0 2.4 2.2 4.8 2.2S9.2 21 11.6 21 14 23.2 16.4 23.2 18.8 21 21.2 21s2.4 2.2 4.8 2.2S28.4 21 30 21" />
+          </svg>
+          <span class="brand__text">Swim with <strong>Coach James</strong></span>
+        </a>
+        <p class="footer__tag">Build confidence. Learn skills. <em>Save lives.</em></p>
+        <p class="footer__area">Based on Staten Island, NY · Available to travel.</p>
+      </div>
+
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="mailto:Jabbazia99@gmail.com">Jabbazia99@gmail.com</a>
+        <a href="https://instagram.com/swimwithcoachjames" target="_blank" rel="noopener">Instagram @swimwithcoachjames</a>
+        <a href="https://www.linkedin.com/in/james-abbazia-45121a174" target="_blank" rel="noopener">LinkedIn — James Abbazia</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Explore</h4>
+        <a href="#about">About Coach James</a>
+        <a href="#method">The Method</a>
+        <a href="#sessions">Sessions &amp; Pricing</a>
+        <a href="#book">Book a Session</a>
+      </div>
+    </div>
+    <div class="wrap footer__bottom">
+      <span>© <span id="year">2026</span> Swim with Coach James. All rights reserved.</span>
+      <span class="footer__certs">K–12 Educator · M.S. Sports Admin · CPR / AED / First Aid Certified</span>
+    </div>
+  </footer>
+
+  <!-- Floating book button (appears after hero) -->
+  <a href="#book" class="floatbook" id="floatbook" aria-label="Book a session">Book a Session</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
