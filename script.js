@@ -8,7 +8,7 @@ const CONFIG = {
   // without opening the visitor's email app. e.g. "https://formspree.io/f/abcd1234".
   // 1) Make a free account at https://formspree.io  2) Create a form  3) Paste its URL here.
   // Leave it as "" and the form will open the visitor's email app pre-filled to you instead.
-  formEndpoint: "",
+  formEndpoint: "https://formspree.io/f/mvzjgqwl",
   contactEmail: "Jabbazia99@gmail.com"
 };
 /* ------------------------------------------------------------ */
